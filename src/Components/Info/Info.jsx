@@ -15,8 +15,10 @@ export function Info() {
             />
           </div>
           <div className={styles.info_content}>
-            <p className={styles.number}>+91 12345 09876</p>
-            <p className={styles.email}>info@example.com</p>
+            <div className={styles.feedback}>
+              <p className={styles.number}>+91 12345 09876</p>
+              <p className={styles.email}>info@example.com</p>
+            </div>
             <Icons />
           </div>
         </div>

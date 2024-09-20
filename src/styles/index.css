@@ -74,4 +74,7 @@ button:focus-visible {
   max-width: 1193px;
   margin: 0 auto;
   /* padding: 0 30px; */
+
+  @media (max-width: 960px) {
+  }
 }

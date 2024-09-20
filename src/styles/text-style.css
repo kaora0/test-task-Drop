@@ -13,3 +13,25 @@
   line-height: 0.81;
   color: #666666;
 }
+
+@media (max-width: 725px) {
+  .h3_style {
+    font-size: 32px;
+  }
+
+  .text_desc {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 725px) {
+  .text_desc {
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 250px) {
+  .h3_style {
+    line-height: 1.5;
+  }
+}

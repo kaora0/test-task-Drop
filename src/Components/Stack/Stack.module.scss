@@ -12,13 +12,18 @@
 }
 
 .stack {
-  // display: flex;
-  // flex-flow: row wrap;
-  // justify-content: space-between;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   column-gap: 100px;
   row-gap: 67px;
+
+  @media (max-width: 850px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px;
+  }
+  @media (max-width: 430px) {
+    grid-template-columns: 1fr 1fr;
+  }
 
   img {
     max-width: 120 px;

@@ -16,6 +16,13 @@
     row-gap: 62px;
     column-gap: 47px;
 
+    @media (max-width: 960px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 620px) {
+      grid-template-columns: 1fr;
+    }
+
     .cart {
       max-width: 373px;
       border-radius: 20px;

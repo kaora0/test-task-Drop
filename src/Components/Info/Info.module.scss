@@ -1,3 +1,9 @@
+@mixin mixin-flex {
+  display: flex;
+  column-gap: 80px;
+  justify-content: space-between;
+}
+
 .info {
   padding: 203px 3px 42px;
 
@@ -8,9 +14,15 @@
     justify-content: space-between;
 
     .info_content {
-      display: flex;
-      column-gap: 80px;
-      justify-content: space-between;
+      @include mixin-flex;
+
+      .feedback {
+        @include mixin-flex;
+        @media (max-width: 870px) {
+          flex-direction: column;
+          row-gap: 10px;
+        }
+      }
 
       font-family: "DM Sans", sans-serif;
       font-size: 18px;
