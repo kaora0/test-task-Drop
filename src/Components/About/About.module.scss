@@ -1,0 +1,48 @@
+.about_content {
+  display: flex;
+  column-gap: 219px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about_text {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 1.21;
+
+  color: rgb(66, 68, 110);
+
+  .hi_span::after {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 58px;
+
+    padding-right: 60px;
+    background: url("../public/static/like.png") no-repeat;
+  }
+
+  .name_span {
+    display: block;
+    background: linear-gradient(
+      to right,
+      rgb(19, 176, 245) 3%,
+      rgb(231, 15, 170) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.about_img {
+  max-width: 350px;
+  max-width: 350px;
+
+  img {
+    border-radius: 50%;
+    border: 9px solid transparent;
+    background: linear-gradient(#ccc 0 0) padding-box,
+      linear-gradient(to right, rgb(19, 176, 245) 3%, rgb(231, 15, 170) 100%)
+        border-box;
+  }
+}

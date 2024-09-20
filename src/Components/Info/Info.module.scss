@@ -1,0 +1,21 @@
+.info {
+  padding: 203px 3px 42px;
+
+  .container {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+
+    .info_content {
+      display: flex;
+      column-gap: 80px;
+      justify-content: space-between;
+
+      font-family: "DM Sans", sans-serif;
+      font-size: 18px;
+      line-height: 1.44;
+      color: rgb(66, 68, 110);
+    }
+  }
+}
